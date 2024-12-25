@@ -49,3 +49,13 @@ if __name__ == "__main__":
     plt.xlabel("Number of rolls")
     plt.ylabel("EV")
     plt.show()
+    stopvalues = np.zeros(50)
+    for y in range(1, 51):
+        for x in range(1, 301):
+            if arr[x, y] == x/y:
+                stopvalues[y - 1] = x/y
+                break
+    plt.plot(np.arange(1, 51), stopvalues)
+    plt.xlabel("Number of rolls")
+    plt.ylabel("Stop if average is more than or equal to")
+    plt.show()
