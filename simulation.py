@@ -45,7 +45,7 @@ if __name__ == "__main__":
         for _ in range(n):
             arr = apply_transformation(arr, n)
         EVs[n - 1] = arr[0, 0]
-    plt.plot(EVs)
+    plt.plot(np.arange(1, 51), EVs)
     plt.xlabel("Number of rolls")
     plt.ylabel("EV")
     plt.show()
