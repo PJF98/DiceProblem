@@ -9,3 +9,5 @@ than that.
 This is the graph of the EVs for this problem for n from 1 to 50.
 
 ![EVs for the simplified problem](./EV_for_simplified_problem.png)
+
+Based on this graph I guess the EV for the full problem is around 4.5.
