@@ -12,7 +12,7 @@ This is the graph of the EVs for this problem for n from 1 to 50.
 
 Based on this graph I guess the EV for the full problem is around 4.5.
 
-Interesting this approach also gives a lower bound of 4.162 for the EV if your
+Interestingly this approach also gives a lower bound of 4.162 for the EV if your
 first roll is a 4 so you should keep going if your first roll is a 4.
 
 Visualising what average you need to have to stop after each number of rolls
