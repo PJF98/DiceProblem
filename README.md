@@ -20,5 +20,5 @@ for the n=50 case gives this graph:
 
 ![Stop values for n=50](./StopValues.png)
 
-Slight increases are caused by gaps in discrete numbers. The "true" average if
+Slight increases are caused by gaps in discrete numbers. The "true" average required to stop if
 all real number averages were possible should always decrease.
